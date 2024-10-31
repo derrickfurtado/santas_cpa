@@ -1,3 +1,4 @@
+import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 
@@ -14,6 +15,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // }
 
 // buttonEl?.addEventListener('click', addGoal)
+
 
 
 

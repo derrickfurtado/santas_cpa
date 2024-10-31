@@ -16,7 +16,7 @@ import Index from './views/index.vue';
 <template>
 
 
-  <span>Hello World</span>
+
 
   <Index />
 
