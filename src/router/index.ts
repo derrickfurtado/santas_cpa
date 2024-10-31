@@ -1,22 +1,36 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
+
+// const buttonEl = document.querySelector('button');
+// const inputEl = document.querySelector('input');
+// const listElList = document.querySelector('ul');
+
+// function addGoal() {
+//   const enteredValue = inputEl?.value;
+//   const listItemEl = document.createElement('li');
+//   listItemEl.textContent = enteredValue;
+//   listElList?.append(listItemEl);
+//   inputEl?.value = '';
+// }
+
+// buttonEl?.addEventListener('click', addGoal)
+
+
+
+
+
+
+
+
+
+
+
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }
+    
   ]
 })
 
