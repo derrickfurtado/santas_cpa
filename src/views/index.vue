@@ -13,48 +13,36 @@ function addGoal() {
   }
 }
 
-
-
-// const funcLogic = createApp({
-//   data() {
-//     return {
-//       goals: [],
-//       enteredValue: ''
-//     };
-//   },
-//   methods: {
-//     addGoal() {
-//       this.goals.push(this.enteredValue);
-//     }
-//   }
-// });
-
-
 </script>
 
 <template>
-    <div>
-        <div id="app" class="flex flex-col">
-            <div class="flex">
-                <label for="goal">
-                    <span class="text-2xl">Goal</span>
-                </label>
-                <input type="text" id="goal" v-model="newGoal" />
-                <button @click="addGoal" class="btn">Add Goal</button>
-            </div>
-            <div class="flex flex-col">
-                <ul>
-                    <li v-for="(goal,index) in goals" :key="index">
-                        {{ goal }}
-                    </li>
-                </ul>
-            </div>
+
+    <div id="app" class="flex flex-col p-4">
+        <div class="flex items-center space-x-2 mb-4">
+            <label for="goal" class="text-3xl font-bold">Goal:</label>
+            <input 
+                type="text" 
+                id="goal" 
+                class="input input-bordered"
+                v-model="newGoal"
+                placeholder="Enter your goal here"
+            />
+            <button @click="addGoal" class="btn">Add Goal</button>
+        </div>
+        <div class="flex flex-col">
+            <ul>
+                <li 
+                    v-for="(goal,index) in goals" 
+                    :key="index"
+                    class="mb-1 p-2 bordered rounded"
+                >
+                    {{ goal }}
+                </li>
+            </ul>
         </div>
     </div>
 
-
-
-
 </template>
+
 
 <style scoped></style>

@@ -3569,3 +3569,7 @@ details.collapse summary::-webkit-details-marker {
     background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
