@@ -1,18 +1,5 @@
-<script setup lang="ts">
+<script setup lang="js"></script>
 
-import addSearchToys from '@/components/icons/addSearchToys.vue';
+<template></template>
 
-</script>
-
-
-
-
-<template>
-
-    <addSearchToys class="h-screen"/>
-
-</template>
-
-
-<style scoped>
-</style>
+<style scoped></style>
