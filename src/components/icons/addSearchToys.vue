@@ -30,14 +30,16 @@ function addToy() {
     </div>
     <div class="flex flex-col items-center">
       <ul>
-        <li
-          id="toyOnList"
-          v-for="(singleToy, index) in toyBox"
-          :key="index"
-          class="mb-1 p-2 text-xl underline bordered rounded"
-        >
-          {{ singleToy }}
-        </li>
+        <div class="toast toast-end">
+          <div
+            id="toyOnList"
+            class="alert alert-info"
+            v-for="(singleToy, index) in toyBox"
+            :key="index"
+          >
+            {{ singleToy }}
+          </div>
+        </div>
       </ul>
     </div>
   </div>
@@ -46,9 +48,5 @@ function addToy() {
 <style scoped>
 #searchAddToys {
   background: silver;
-}
-
-#toyOnList {
-  background-color: red;
 }
 </style>
