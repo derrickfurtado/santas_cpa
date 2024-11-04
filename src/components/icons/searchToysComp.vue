@@ -46,7 +46,7 @@ function addToy() {
 </template>
 
 <style scoped>
-#searchAddToys {
+/* #searchAddToys {
   background: silver;
-}
+} */
 </style>

@@ -5,9 +5,9 @@ import NavBar from "./views/navBar.vue";
 
 <template>
   <div class="flex flex-row w-screen">
-    <NavBar id="navBar" class="flex flex-col h-screen max-w-[15%]"/>
+    <NavBar id="navBar" class="flex flex-col h-screen m-top-max-w-[15%]"/>
 
-    <Index id="index" class="w-screen h-auto"/>
+    <Index id="index" class="flex flex-col justify-center items-center w-screen h-auto"/>
   </div>
 </template>
 
@@ -15,8 +15,8 @@ import NavBar from "./views/navBar.vue";
 #navBar {
   background-color: grey;
 }
-
+/* 
 #index {
   background-color: rgb(143, 216, 216);
-}
+} */
 </style>

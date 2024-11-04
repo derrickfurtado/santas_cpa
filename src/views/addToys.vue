@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import addSearchToys from "@/components/icons/addSearchToysComp.vue";
+import addSearchToys from "@/components/icons/searchToysComp.vue";
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import addSearchToys from "@/components/icons/addSearchToysComp.vue";
 </template>
 
 <style scoped>
-#addToysView {
+/* #addToysView {
   background-color: rgb(181, 150, 210);
-}
+} */
 </style>
