@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import addSearchToys from "@/components/icons/addSearchToys.vue";
+import addSearchToys from "@/components/icons/addSearchToysComp.vue";
 </script>
 
 <template>
-  <addSearchToys class="h-screen" />
+  <div id="addToysView">
+    <addSearchToys />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#addToysView {
+  background-color: rgb(181, 150, 210);
+}
+</style>

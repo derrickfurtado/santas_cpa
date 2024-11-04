@@ -4,12 +4,10 @@ import NavBar from "./views/navBar.vue";
 </script>
 
 <template>
-  <div class="flex flex-row">
-    <NavBar id="navBar" />
+  <div class="flex flex-row w-screen">
+    <NavBar id="navBar" class="flex flex-col h-screen max-w-[15%]"/>
 
-    <div class="flex flex-col w-screen h-screen">
-      <Index id="index " />
-    </div>
+    <Index id="index" class="w-screen h-auto"/>
   </div>
 </template>
 
@@ -19,6 +17,6 @@ import NavBar from "./views/navBar.vue";
 }
 
 #index {
-  background-color: aqua;
+  background-color: rgb(143, 216, 216);
 }
 </style>
